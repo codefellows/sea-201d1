@@ -1,4 +1,9 @@
+var dog = "woof";
+var crab = 2;
+var lobster = 3;
+
 function add(a, b) {
+  var cat = "meow";
   return a + b;
 }
 
@@ -10,4 +15,6 @@ function addThenSquareThenSubtract(e, f) {
   return addThenSquare(e, f) - e - f;
 }
 
-addThenSquareThenSubtract(2,3);
+function seagull() {
+  console.log('MINE!');
+}
