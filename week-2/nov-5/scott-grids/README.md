@@ -1,4 +1,4 @@
-#Grid Systems
+#Grid Systems Lecture Notes
 
 Grids enable you to build solid structure and form into your designs. Just as with coding, there are recommended ways to organise modules and sections of code, and a grid system can help similarly when designing for the web.
 

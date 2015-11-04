@@ -1,4 +1,4 @@
-#Boxes
+#Boxes Lecture Notes
 
 Good reference for seeing these concepts in action:
 
