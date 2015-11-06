@@ -3,6 +3,7 @@
 Good reference for seeing these concepts in action:
 
 	Reference - http://codepen.io/carolineartz/pen/ogVXZj
+	Refernece - http://caniuse.com/
 
 1. Review box model: 
 	1. Margin: Space on the outside of the Border
