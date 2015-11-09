@@ -1,12 +1,12 @@
-# sea-201d1
+## sea-201d1
 Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 2015)
 
 
-##Monday, November 9
-##Week 3, Day 1
-##+++++++++++++++++++
+###Monday, November 9
+###Week 3, Day 1
+###+++++++++++++++++++
 
-##TODAY'S PLAN
+###TODAY'S PLAN
 
 1. Announcements, code review, & Q&A (Sam, Scott, Kevin, whoever)
   * Project Week starts at the end of this week! OMGWTFBBQ
@@ -24,9 +24,9 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 
 3. Discussion on the weekly assignment
 
-###+++++
+##+++++
 
-##Refresher on weekly plan:
+###Refresher on weekly plan:
 
   * TODAY: Start the weekly project!
   * Tuesday: Refine the project's look, feel, and functionality; start adding Chart.JS
