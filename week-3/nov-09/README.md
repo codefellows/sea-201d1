@@ -9,11 +9,13 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 ###TODAY'S PLAN
 
 1. Announcements, code review, & Q&A (Sam, Scott, Kevin, whoever)
-  * Project Week starts at the end of this week! OMGWTFBBQ
+  * Student survey comments
   * Code review:
       * Show off your work!
       * Tell us about your thought process in making it!
       * Are there any easter eggs?
+  * Project Week starts at the end of this week! OMGWTFBBQ
+  * Look at some projects from the prior class
 
 2. Go over accumulated readings from the HTML/CSS book coming in to today:
   * Ch.8: “Extra Markup” (p.176; 24 pages)
@@ -22,7 +24,9 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 
 ###---------BREAK---------
 
-3. Discussion on the weekly assignment
+3. ChartJS readings
+
+4. Discussion on the weekly assignment
 
 ##+++++
 
