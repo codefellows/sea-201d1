@@ -15,6 +15,9 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
       * Let's review and expand our planning conversation from yesterday
   * Project Week starts at the end of this week! OMGWTFBBQ
       * Look at some projects from the prior class! (This will be fun!)
+        * http://samjarzembowski.github.io/black-history-ipsum
+        * http://flegald.github.io/Echelon.JS/
+        * http://swaintek.github.io/Spirit-Animal/
       * More discussion regarding possible project ideas
   * Q&A?
 
@@ -33,7 +36,7 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 ###Refresher on weekly plan:
 
   * Monday: Start the weekly project! (The interim goal was to randomly display two pictures... did you get that far? Can you tally clicks on them?)
-  * TODAY: Refine the project's look, feel, and functionality; start adding Chart.JS ()
+  * TODAY: Refine the project's look, feel, and functionality; start adding Chart.JS
   * Wednesday (pair): Add local storage to your project
   * Thursday: (pair): Assigment TBD, depending upon progress Mon-Wed... expect that we'll add some kind of new feature; initial pitches for final projects
-  * Friday: discussion on the big picture or web development; last pitches for final projects, set project teams, GO GO GO!
+  * Friday: discussion on the big picture of web development; last pitches for final projects, set project teams, GO GO GO!
