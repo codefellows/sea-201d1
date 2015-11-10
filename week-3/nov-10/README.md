@@ -10,13 +10,13 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 1. Announcements, code review, & Q&A (Sam, Scott, Kevin, whoever)
   * Announcements
       * Tomorrow (Veterans' Day): limited bus service - http://metro.kingcounty.gov/alerts/holidays.html
-      * End of class today: we will stop at 11:50, because Scott and Sam need to be *seated* in a meeting right at noon.
   * Code review:
       * Let's look at an example or two from yesterday. How far did you get?
       * Let's review and expand our planning conversation from yesterday
   * Project Week starts at the end of this week! OMGWTFBBQ
       * Look at some projects from the prior class! (This will be fun!)
       * More discussion regarding possible project ideas
+  * Q&A?
 
 2. Go over readings from the HTML/CSS book (Scott):
   * Ch.16: “Images” (p.406, 22 pages)
