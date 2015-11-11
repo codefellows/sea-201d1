@@ -1,17 +1,4 @@
-var data = {
-  labels: [],
-  datasets: [
-    {
-      label: 'Kittehz!!',
-      fillColor: "rgba(151, 187, 205, 0.5)",
-      strokeColor: "rgba(151, 187, 205, 0.8)",
-      highlightFill: "rgba(151, 187, 205,0 .75)",
-      highlightStroke: "rgba(151, 187, 20 5,1)",
-      data: []
-    }
-  ]
-}
-
+var data;
 var images = [];
 var files = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
 
@@ -29,8 +16,30 @@ function buildPhoto() {
     var filePath = 'images/' + files[i] + '.jpg';
     new Photo(files[i], filePath);
   }
-} buildPhoto();
+  localStorage.setItem('images', JSON.stringify(images));
+} 
 
+function checkLocal() {
+  if (localStorage.chartData && localStorage.images) {
+    data = JSON.parse(localStorage.chartData);
+    images = JSON.parse(localStorage.getItem('images'));
+  } else {
+    data = {
+      labels: [],
+      datasets: [
+        {
+          label: 'Kittehz!!',
+          fillColor: "rgba(151, 187, 205, 0.5)",
+          strokeColor: "rgba(151, 187, 205, 0.8)",
+          highlightFill: "rgba(151, 187, 205,0 .75)",
+          highlightStroke: "rgba(151, 187, 20 5,1)",
+          data: []
+        }
+      ]
+    };
+    buildPhoto();
+  }
+} checkLocal();
 
 var tracker = {
   left: '',
@@ -45,12 +54,15 @@ var tracker = {
   },
 
   getRandomImg: function() {
-    this.left = images[tracker.getRandomNum()];
-    this.right = images[tracker.getRandomNum()];
+    this.left = images[this.getRandomNum()];
+    this.right = images[this.getRandomNum()];
+    console.log('left: ' + this.left);
+    console.log('right: ' + this.right);
     
-    while(this.left === this.right) {
-      this.right = images[tracker.getRandomNum()];
+    if (this.left === this.right) {
+      this.getRandomImg();
     }
+
     this.leftImgEl.src = this.left.path;
     this.leftImgEl.id = this.left.name;
     this.leftCaption.textContent = this.left.name;
@@ -64,11 +76,11 @@ var tracker = {
     for (var i in images) {
       if (images[i].name === id) {
         images[i].votes += 1;
-        //This may be necessary for Local Storage?
-        // data.datasets[0].data[i] = images[i].votes;
+        data.datasets[0].data[i] = images[i].votes;
         chart.datasets[0].bars[i].value = images[i].votes;
       }
     }
+    localStorage.setItem('chartData', JSON.stringify(data));
   }
 }
 
