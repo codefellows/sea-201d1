@@ -9,7 +9,9 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 
 1. Code review + Q&A (Sam, Scott, Jonathan, Kevin, whoever)
 
-2. GitHub flow with teams
+2. GitHub flow with teams (Scott)
+
+3. Code linting (Sam)
 
 ###---------BREAK---------
 
