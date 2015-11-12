@@ -16,12 +16,12 @@ function buildPhoto() {
     var filePath = 'images/' + files[i] + '.jpg';
     new Photo(files[i], filePath);
   }
-  localStorage.setItem('images', JSON.stringify(images));
+  localStorage.setItem('images', JSON.stringify(images)); // This line is new
 } 
 
-function checkLocal() {
+function checkLocal() { // This function wrapper is new, and some content
   if (localStorage.chartData && localStorage.images) {
-    data = JSON.parse(localStorage.chartData);
+    data = JSON.parse(localStorage.chartData); // line 24 and 25 are two different ways to get data from Local Storage
     images = JSON.parse(localStorage.getItem('images'));
   } else {
     data = {
@@ -29,10 +29,10 @@ function checkLocal() {
       datasets: [
         {
           label: 'Kittehz!!',
-          fillColor: "rgba(151, 187, 205, 0.5)",
-          strokeColor: "rgba(151, 187, 205, 0.8)",
-          highlightFill: "rgba(151, 187, 205,0 .75)",
-          highlightStroke: "rgba(151, 187, 20 5,1)",
+          fillColor: "rgba(25, 207, 205, 0.5)",
+          strokeColor: "rgba(25, 207, 205, 0.8)",
+          highlightFill: "rgba(25, 207, 205, 0.75)",
+          highlightStroke: "rgba(25, 207, 20 5, 1)",
           data: []
         }
       ]
@@ -56,8 +56,6 @@ var tracker = {
   getRandomImg: function() {
     this.left = images[this.getRandomNum()];
     this.right = images[this.getRandomNum()];
-    console.log('left: ' + this.left);
-    console.log('right: ' + this.right);
     
     if (this.left === this.right) {
       this.getRandomImg();
@@ -80,7 +78,7 @@ var tracker = {
         chart.datasets[0].bars[i].value = images[i].votes;
       }
     }
-    localStorage.setItem('chartData', JSON.stringify(data));
+    localStorage.setItem('chartData', JSON.stringify(data)); // This line is new
   }
 }
 
