@@ -9,7 +9,14 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 
 1. Code review + Q&A (Sam, Scott, Jonathan, Kevin, whoever)
 
-2. Look at the other B34 projects
+2. Look at the other B34 projects:
+  * WebWD (Spoof of WebMD) http://jessethach.github.io/web-wd/
+
+  * Lord of the Rings: Choose Your Own Adventure http://robertehill.github.io/the-fellowship/
+
+  * Quake Prep: Prepare Yo-Self http://aaronfilson.github.io/preps/
+
+  * mushRoaming Game (a take on old 8-bit Atari video games) http://alau99.github.io/type-ufo/
 
 3. Project Pitches, Round 1
 
