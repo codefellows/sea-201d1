@@ -15,9 +15,13 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
 
 ###---------BREAK---------
 
-3. Project Pitches, Round 2
+1. Go over Canvas assignment for final projects
 
-4. Set project teams
+2. Project Pitches, Round 2
+
+3. Set project teams!
+
+4. START YOUR PROJECTS!
 
 ##+++++
 
