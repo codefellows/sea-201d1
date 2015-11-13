@@ -29,7 +29,7 @@ Here's what you need to know to get a linter set up and running.
 
 ## Sample *.eslintrc* and *.eslintignore* files
 ###*.eslintrc*
-```{
+```
 {
   // http://eslint.org/docs/rules/
 
@@ -66,8 +66,8 @@ Here's what you need to know to get a linter set up and running.
     "semi": 2,                             // require or disallow use of semicolons instead of ASI
   }
 }
-
 ```
+
 ###*.eslintignore*
 ```node_modules/**
 README.md
