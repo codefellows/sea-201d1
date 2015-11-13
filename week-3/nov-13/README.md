@@ -31,4 +31,4 @@ Course repo for sea-201d1, with instructors Sam Hamm and Scott Schmidt (Oct/Nov 
   * Tuesday (pair): Refine the project's look, feel, and functionality; start adding Chart.JS
   * Wednesday: Refine and improve; discussion on the big picture of web development;
   * Thursday: Add local storage to your project; initial pitches for final projects
-  * TODAY:  Working in GitHub with teams; for last pitches for final projects, set project teams, GO GO GO!
+  * TODAY:  Working in GitHub with teams; last pitches for final projects, set project teams, GO GO GO!
