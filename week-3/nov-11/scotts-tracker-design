@@ -6,7 +6,7 @@ var files = [...] --- array of filenames
 
 function Photo(name, path) --- constructor for photo objects
 
-function buildPhoto() --- turns filenames into new image paths
+function buildPhoto() --- turns filenames into new image objects
 
 
 
