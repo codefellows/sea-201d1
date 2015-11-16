@@ -7,6 +7,8 @@
 * Melissa
 * Sawako
 
+---
+
 ###Trivia Crossroads
 ####Social networking for trivia events
 * Michael
@@ -15,6 +17,8 @@
 * Willie
 * Ivar
 
+---
+
 ###Note Fellows
 ####Note-taking app a la Evernote
 * Chris
@@ -22,12 +26,16 @@
 * Kevin
 * Adam
 
+---
+
 ###Team Swanson 2016
 ####Ron Swanson is running for President! This is his campaign site!
 * Miranda
 * Rick
 * Thom
 * George
+
+---
 
 ###Group to the Third
 ####Cup & Ball
