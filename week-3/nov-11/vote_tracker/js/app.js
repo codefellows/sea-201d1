@@ -17,7 +17,7 @@ function buildPhoto() {
     new Photo(files[i], filePath);
   }
   localStorage.setItem('images', JSON.stringify(images)); // This line is new
-} 
+}
 
 function checkLocal() { // This function wrapper is new, and some content
   if (localStorage.chartData && localStorage.images) {
@@ -42,8 +42,8 @@ function checkLocal() { // This function wrapper is new, and some content
 } checkLocal();
 
 var tracker = {
-  left: '',
-  right: '',
+  left: null,
+  right: null,
   leftImgEl: document.getElementById('leftPhoto'),
   rightImgEl: document.getElementById('rightPhoto'),
   leftCaption: document.getElementById('capLeft'),
@@ -56,7 +56,7 @@ var tracker = {
   getRandomImg: function() {
     this.left = images[this.getRandomNum()];
     this.right = images[this.getRandomNum()];
-    
+
     if (this.left === this.right) {
       this.getRandomImg();
     }
@@ -80,7 +80,7 @@ var tracker = {
     }
     localStorage.setItem('chartData', JSON.stringify(data)); // This line is new
   }
-}
+};
 
 var ctx = document.getElementById('catChart').getContext('2d');
 var chart = new Chart(ctx).Bar(data, {
@@ -98,6 +98,6 @@ mainContent.addEventListener('click', function(event) {
   } else {
     console.log('Click the image, Idiot!');
   }
-})
+});
 
 tracker.getRandomImg();
